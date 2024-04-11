@@ -1,5 +1,6 @@
 const fs = require('fs').promises;
 const path = require('path');
+const { app } = require('@azure/functions');
 
 module.exports = async function (context, req) {
     try {
